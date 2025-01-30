@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "shrimpsicle",
+	"version": "${version}",
+	"name": "Shrimpsicle",
+	"description": "Shimpsicle Assets!",
+	"authors": [
+		"DEV - ShiroJR1811",
+		"ART - Apfelrunder"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/shrimpsicle",
+		"sources": "https://github.com/JR1811/shrimpsicle"
+	},
+	"license": "MIT",
+	"icon": "assets/shrimpsicle/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.shirojr.shrimpsicle.Shrimpsicle"
+		],
+		"fabric-datagen": [
+			"net.shirojr.shrimpsicle.ShrimpsicleDataGenerator"
+		]
+	},
+	"mixins": [
+		"shrimpsicle.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
