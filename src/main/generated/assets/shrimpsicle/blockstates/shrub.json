@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "shrimpsicle:block/shrub_lower"
+    },
+    "half=upper": {
+      "model": "shrimpsicle:block/shrub_upper"
+    }
+  }
+}

@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
 import net.shirojr.shrimpsicle.init.ShrimpsicleBlocks;
+import net.shirojr.shrimpsicle.init.ShrimpsicleItemGroups;
+import net.shirojr.shrimpsicle.init.ShrimpsicleItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,7 +15,9 @@ public class Shrimpsicle implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ShrimpsicleItems.initialize();
 		ShrimpsicleBlocks.initialize();
+		ShrimpsicleItemGroups.initialize();
 
 		LOGGER.info("A Shrimp has invaded your files!");
 	}

@@ -3,7 +3,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "shrimpsicle:block/banana",
-		"particle": "shrimpsicle:block/banana"
+		"particle": "block/yellow_wool"
 	},
 	"elements": [
 		{

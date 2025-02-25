@@ -19,6 +19,9 @@
 		"main": [
 			"net.shirojr.shrimpsicle.Shrimpsicle"
 		],
+		"client": [
+			"net.shirojr.shrimpsicle.ShrimpsicleClient"
+		],
 		"fabric-datagen": [
 			"net.shirojr.shrimpsicle.ShrimpsicleDataGenerator"
 		]

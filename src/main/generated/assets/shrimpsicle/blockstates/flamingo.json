@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "shrimpsicle:block/flamingo",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "shrimpsicle:block/flamingo"
+    },
+    "facing=south": {
+      "model": "shrimpsicle:block/flamingo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "shrimpsicle:block/flamingo",
+      "y": 270
+    }
+  }
+}

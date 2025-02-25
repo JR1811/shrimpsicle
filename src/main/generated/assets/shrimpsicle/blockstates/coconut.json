@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "shrimpsicle:block/coconut",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "shrimpsicle:block/coconut"
+    },
+    "facing=south": {
+      "model": "shrimpsicle:block/coconut",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "shrimpsicle:block/coconut",
+      "y": 270
+    }
+  }
+}

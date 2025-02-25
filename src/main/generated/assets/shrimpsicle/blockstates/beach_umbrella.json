@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "part=bottom": {
+      "model": "shrimpsicle:block/beach_umbrella_bottom"
+    },
+    "part=mid": {
+      "model": "shrimpsicle:block/beach_umbrella_mid"
+    },
+    "part=top": {
+      "model": "shrimpsicle:block/beach_umbrella_top"
+    }
+  }
+}
