@@ -12,6 +12,7 @@ public class ShrimpsicleClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ShrimpsicleBlocks.LUSH_PLANT, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ShrimpsicleBlocks.SHRUB, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ShrimpsicleBlocks.PINEAPPLE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ShrimpsicleBlocks.ANANAS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ShrimpsicleBlocks.BEACH_UMBRELLA, RenderLayer.getCutout());
 
     }

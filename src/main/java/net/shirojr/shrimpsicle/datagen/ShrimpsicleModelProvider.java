@@ -28,8 +28,10 @@ public class ShrimpsicleModelProvider extends FabricModelProvider {
         generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.FLAMINGO));
         generator.blockStateCollector.accept(generateMultiRotationalDecoBlock(ShrimpsicleBlocks.GECKO));
         generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.PINEAPPLE));
+        generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.ANANAS));
         generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.SHELL));
         generator.blockStateCollector.accept(generateBeachUmbrellaBlock(ShrimpsicleBlocks.BEACH_UMBRELLA));
+        generator.registerSimpleCubeAll(ShrimpsicleBlocks.MOTHER_OF_PEARL);
 
         generator.excludeFromSimpleItemModelGeneration(ShrimpsicleBlocks.BEACH_UMBRELLA);
         generator.excludeFromSimpleItemModelGeneration(ShrimpsicleBlocks.SHRUB);

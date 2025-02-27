@@ -1,4 +1,5 @@
 {
+  "block.shrimpsicle.ananas": "Ananas",
   "block.shrimpsicle.banana": "Banana",
   "block.shrimpsicle.beach_umbrella": "Beach Umbrella",
   "block.shrimpsicle.coconut": "Coconut",
@@ -6,6 +7,7 @@
   "block.shrimpsicle.flamingo": "Flamingo",
   "block.shrimpsicle.gecko": "Gecko",
   "block.shrimpsicle.lush_plant": "Lush Plant",
+  "block.shrimpsicle.mother_of_pearl": "Mother Of Pearl",
   "block.shrimpsicle.nut": "Nut",
   "block.shrimpsicle.pineapple": "Pineapple",
   "block.shrimpsicle.shell": "Shell",
@@ -13,5 +15,8 @@
   "item.shrimpsicle.banana": "Banana",
   "item.shrimpsicle.coconut": "Coconut",
   "item.shrimpsicle.pineapple": "Pineapple",
-  "shrimpsicle.itemGroup.shrimpsicle": "Shrimpsicle"
+  "shrimpsicle.itemGroup.shrimpsicle": "Shrimpsicle",
+  "tooltip.shrimpsicle.ananas_1": "This is obviously not a pineapple!",
+  "tooltip.shrimpsicle.ananas_2": "A pineapple is a COMPLETELY different species of fruit. they can't even talk.",
+  "tooltip.shrimpsicle.ananas_3": "So you wouldn't eat an ananas, right?"
 }

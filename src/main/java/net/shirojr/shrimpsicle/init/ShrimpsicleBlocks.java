@@ -2,6 +2,9 @@ package net.shirojr.shrimpsicle.init;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -39,6 +42,10 @@ public interface ShrimpsicleBlocks {
                     createDecoSettings(AbstractBlock.Settings.create()),
                     Block.createCuboidShape(5, 0, 5, 11, 6, 11)),
             false);
+    AnanasBlock ANANAS = registerBlock("ananas", new AnanasBlock(
+                    createDecoSettings(AbstractBlock.Settings.create()),
+                    Block.createCuboidShape(5, 0, 5, 11, 6, 11)),
+            true);
     FlamingoBlock FLAMINGO = registerBlock("flamingo", new FlamingoBlock(
                     createDecoSettings(AbstractBlock.Settings.create()),
                     Block.createCuboidShape(6, 0, 6, 10, 11, 10)),
@@ -58,7 +65,10 @@ public interface ShrimpsicleBlocks {
             true);
     BeachUmbrellaBlock BEACH_UMBRELLA = registerBlock("beach_umbrella", new BeachUmbrellaBlock(AbstractBlock.Settings.create()
             .breakInstantly().pistonBehavior(PistonBehavior.DESTROY).jumpVelocityMultiplier(1.5f).dropsNothing()), false);
-
+    Block MOTHER_OF_PEARL = registerBlock("mother_of_pearl", new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.OFF_WHITE).instrument(NoteBlockInstrument.HAT).strength(0.3F).sounds(BlockSoundGroup.GLASS)
+                    .luminance(state -> 7).solidBlock(Blocks::never).nonOpaque()),
+            true);
 
 
     private static <T extends Block> T registerBlock(String name, T block, boolean registerBlockItem) {
