@@ -34,7 +34,7 @@ public interface ShrimpsicleBlocks {
                     createDecoSettings(AbstractBlock.Settings.create()),
                     Block.createCuboidShape(0, 0, 0, 16, 12, 16)),
             true);
-    DecoBlock CRAB = registerBlock("crab", new DecoBlock(
+    CrabBlock CRAB = registerBlock("crab", new CrabBlock(
                     createWeakDecoSettings(AbstractBlock.Settings.create()),
                     Block.createCuboidShape(4, 0, 4, 12, 2, 12)),
             true);
