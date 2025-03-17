@@ -23,7 +23,7 @@ public class ShrimpsicleModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator generator) {
         generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.BANANA));
         generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.COCONUT));
-        generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.NUT));
+        generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.NUTS));
         generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.CRAB));
         generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.FLAMINGO));
         generator.blockStateCollector.accept(generateMultiRotationalDecoBlock(ShrimpsicleBlocks.GECKO));
@@ -31,7 +31,7 @@ public class ShrimpsicleModelProvider extends FabricModelProvider {
         generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.ANANAS));
         generator.blockStateCollector.accept(generateRotationalDecoBlock(ShrimpsicleBlocks.SHELL));
         generator.blockStateCollector.accept(generateBeachUmbrellaBlock(ShrimpsicleBlocks.BEACH_UMBRELLA));
-        generator.registerSimpleCubeAll(ShrimpsicleBlocks.MOTHER_OF_PEARL);
+        // generator.registerSimpleCubeAll(ShrimpsicleBlocks.MOTHER_OF_PEARL);
 
         generator.excludeFromSimpleItemModelGeneration(ShrimpsicleBlocks.BEACH_UMBRELLA);
         generator.excludeFromSimpleItemModelGeneration(ShrimpsicleBlocks.SHRUB);

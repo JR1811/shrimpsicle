@@ -15,10 +15,10 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.WorldAccess;
 import net.shirojr.shrimpsicle.block.DecoBlock;
 
-public class NutBlock extends DecoBlock implements Waterloggable {
+public class ShellBlock extends DecoBlock implements Waterloggable {
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
-    public NutBlock(Settings settings, VoxelShape shape) {
+    public ShellBlock(Settings settings, VoxelShape shape) {
         super(settings, shape);
         setDefaultState(getDefaultState().with(WATERLOGGED, false));
     }

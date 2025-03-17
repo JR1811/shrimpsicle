@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "shrimpsicle:block/nut",
+      "model": "shrimpsicle:block/nuts",
       "y": 90
     },
     "facing=north": {
-      "model": "shrimpsicle:block/nut"
+      "model": "shrimpsicle:block/nuts"
     },
     "facing=south": {
-      "model": "shrimpsicle:block/nut",
+      "model": "shrimpsicle:block/nuts",
       "y": 180
     },
     "facing=west": {
-      "model": "shrimpsicle:block/nut",
+      "model": "shrimpsicle:block/nuts",
       "y": 270
     }
   }

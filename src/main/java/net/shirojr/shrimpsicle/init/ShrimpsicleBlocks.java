@@ -19,6 +19,7 @@ import net.shirojr.shrimpsicle.block.custom.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unused")
 public interface ShrimpsicleBlocks {
     List<Block> ALL_BLOCKS = new ArrayList<>();
 
@@ -30,7 +31,7 @@ public interface ShrimpsicleBlocks {
                     createDecoSettings(AbstractBlock.Settings.create()),
                     Block.createCuboidShape(5, 0, 5, 11, 4, 11)),
             false);
-    NutBlock NUT = registerBlock("nut", new NutBlock(
+    NutsBlock NUTS = registerBlock("nuts", new NutsBlock(
                     createDecoSettings(AbstractBlock.Settings.create()),
                     Block.createCuboidShape(0, 0, 0, 16, 12, 16)),
             true);
@@ -53,7 +54,7 @@ public interface ShrimpsicleBlocks {
     DecoRotationalBlock GECKO = registerBlock("gecko", new DecoRotationalBlock(
                     createWeakDecoSettings(AbstractBlock.Settings.create().noCollision())),
             true);
-    DecoBlock SHELL = registerBlock("shell", new DecoBlock(
+    ShellBlock SHELL = registerBlock("shell", new ShellBlock(
                     createDecoSettings(AbstractBlock.Settings.create()),
                     Block.createCuboidShape(4, 0, 4, 12, 2, 12)),
             true);
@@ -67,7 +68,7 @@ public interface ShrimpsicleBlocks {
             .breakInstantly().pistonBehavior(PistonBehavior.DESTROY).jumpVelocityMultiplier(1.5f).dropsNothing()), false);
     Block MOTHER_OF_PEARL = registerBlock("mother_of_pearl", new Block(AbstractBlock.Settings.create()
                     .mapColor(MapColor.OFF_WHITE).instrument(NoteBlockInstrument.HAT).strength(0.3F).sounds(BlockSoundGroup.GLASS)
-                    .luminance(state -> 7).solidBlock(Blocks::never).nonOpaque()),
+                    .luminance(state -> 7).solidBlock(Blocks::never)),
             true);
 
 
