@@ -2,13 +2,13 @@ package net.shirojr.shrimpsicle.item.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.item.AliasedBlockItem;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import org.apache.logging.log4j.util.TriConsumer;
 import org.jetbrains.annotations.Nullable;
 
-public class FoodDecoItem extends AliasedBlockItem {
+public class FoodDecoItem extends BlockItem {
     @Nullable
     private final TriConsumer<ItemStack, World, LivingEntity> finishUsingAction;
 
